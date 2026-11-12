@@ -1,0 +1,11 @@
+# Abaikan lampiran hasil upload pengguna, pertahankan aturan keamanan folder uploads
+uploads/*
+!uploads/.htaccess
+
+# File sistem & editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
